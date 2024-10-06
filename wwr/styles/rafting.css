@@ -8,37 +8,44 @@
     height: auto;
 }
 
-/*img {
-    width: 100%;
-    height: auto;
-}
-*/
-p {
-    color: var(--mycolor);
+.hero p {
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
 }
 
 h1 {
-    position: absolute;
-    color: black;
+    position: relative;
+    bottom: 925px;
+    left: 500px;
+    text-align: center;
+    color: white;
     padding: px;
     margin: 0 0 0 0rem;
-    font-weight: 900;
+    font-size: 5rem;
 }
 
-article {
-    position: absolute;
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.image p {
+    position: relative;
 }
 
 h2 {
     color: black;
-    padding: px;
+    padding: 3px;
     margin: 0 0 0 0rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 p {
     color: black;
-    padding: px;
+    padding: 3px;
     margin: 0 0 0 0rem;
     font-weight: 600;
 }

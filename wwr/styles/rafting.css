@@ -1,0 +1,44 @@
+/*:root {
+    --mycolor: purple;
+}
+*/
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*img {
+    width: 100%;
+    height: auto;
+}
+*/
+p {
+    color: var(--mycolor);
+}
+
+h1 {
+    position: absolute;
+    color: black;
+    padding: px;
+    margin: 0 0 0 0rem;
+    font-weight: 900;
+}
+
+article {
+    position: absolute;
+}
+
+h2 {
+    color: black;
+    padding: px;
+    margin: 0 0 0 0rem;
+    font-weight: 400;
+}
+
+p {
+    color: black;
+    padding: px;
+    margin: 0 0 0 0rem;
+    font-weight: 600;
+}

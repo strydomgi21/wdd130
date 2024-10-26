@@ -3,66 +3,88 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Michael Strydom | WDD 130</title>
+        <title>Home Page</title>
         <meta name="description" content="My name is Mike Strydom, I am currently studying WDD130
         Web Development. The purpose of this page is for you to learn more about my skill set in 
         in this course. I hope that my website is user friendly and appealing. Thank you for responding.">
         <meta name="author" content="Michael Strydom.">
 
-        <link rel="stylesheet" href="styles/styles.css">
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="wwr/styles/rafting.css">
+        <link rel="stylesheet" href="styles/rafting.css">
+        
     </head>
 
     <body>
         <header>
+            <img src="wwr/images/clubrafting.png" alt="Logo" width="150">
             <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-            <a href="https://www.linkedin.com/in/michael-strydom-00228a35/">Linkedin Profile</a>
-            <a href="https://www.facebook.com/mike.strydom1">Facebook Profile</a>
+                <ul class="navigation">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>    
             </nav>
         </header>
-        <main>
-            <h1>Michael Strydom | WDD 130</h1>
-            <img src="images/profile.webp" alt="Hello, my name is Michael Strydom" width="200">
-            <p>Hello! My name is Michael Strydom and I am from Durban, South Africa. I love
-                the outdoors, especially working at the Durban, South Africa temple. I am a
-                qualified horticulturist with 29 years experience. My responsibolities include
-                the Johannesburg temple grounds. I pay them a visit every three months or so.
-                I have also been to assist at the Kinshasa Temple in the Democratic Republic
-                of the Congo. I am really looking forward to the Cape Town temple getting
-                constructed and the beautiful landscaping that should take place. I am currently
-                working in the capacity of a temple facilities assistant. There sure is a lot of
-                work involved in keeping temples running smoothly; a lot of maintenance to carry
-                out. We have a lot of beautiful indigenous plants in our country. The Durban temple
-                gardens are landscaped after an indigenous, low water requirement style. We have a 
-                large open field or veldt grass area on the property. I call it the garden of Eden
-                as there are a lot of plants that are bird and butterlfy friendly. You can take a
-                walk to the top of "Spyglass Hill" and sit and listen in quiet to the insects,
-                frogs and birds going about their business.
-            </p>
-            <ul class="box">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng" target="_blank">Durban South Africa Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng" target="_blank">Johannesburg South Africa Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/cape-town-south-africa-temple?lang=eng" target="_blank">Cape Town South Africa Temple</a></li>
-            </ul>
-        </main>
+        <div class="grid">
+            <main>
+                <div class="hero">
+                    <img src="wwr/images/rafting13_1024.jpg" alt="Hero Image">
+                    <div class="overlay">
+                        <h1 class="image-text">CLUB RAFTING</h1>
+                    </div>
+                    <div class="cover">
+                        <div class="major">
+                            <img src="wwr/images/rafting21_600.png" alt="Rafting 21">
+                            <h3>Family Fun</h3>
+                            <p>At Club Rafting we pride ourselves in getting families 
+                           together to spend quality time and fun in the sun. Mom, Dad
+                           and the kids and all enjoy an adventure like no other.
+                            </p>
+                        </div>
+                        <div class="major">
+                            <img src="wwr/images/rafting53_600.jpg" alt="Rafting 53">
+                            <h3>Team Work</h3>
+                            <p>Bring your colleagues from work for a different kind of
+                           team building. Ride the rapids together, paddle as a team
+                           and spend quality time outdoors under the stars, around a
+                           roaring camp fire.</p>
+                        </div>
+                        <div class="major">
+                            <img src="wwr/images/rafting47_600.jpg" alt="Rafting 47">
+                            <h3>Adrenaline Rush</h3>
+                            <p>Does your daily routine need an injection of excitement?
+                           Do you need to feel alive? How about something to talk about
+                           at the office Christmas Party! Join us and make new memories
+                           and experiences to share with those around you.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
         <aside class="box">
-            <h2>South Africa</h2>
-            <img src="https://st.depositphotos.com/1509285/4300/v/950/depositphotos_43000973-stock-illustration-south-african-flag-made-of.jpg" alt="South African Flag">
-            <p>South Africa is a country on the southernmost tip of the African continent, marked by several 
-                distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. 
-                The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs 
-                at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, 
-                beneath flat-topped Table Mountain.</p>
+            <a href="wwr/contact.html">
+                <button style="font-size:25px; background-color: greenyellow; border-radius: 10px; padding: 10px;">Subscribe to Newsletter</button>
+            </a>
         </aside>
         <footer>
             <p>© 2024 🏴‍☠️ Michael Strydom 🏴‍☠️ Durban 🏴‍☠️ South Africa
             </p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="wwr/images/facebook.webp" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="wwr/images/twitter_symbol.webp" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="wwr/images/instagram_symbol.webp" alt="Instagram">
+                </a>
+            </nav>
         </footer>
     </body>
     <!--03October2024-->

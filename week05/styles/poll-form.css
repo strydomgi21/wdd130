@@ -1,3 +1,35 @@
+:root {
+    --heading-font: 'Arvo', serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --heading-color: #0443b3;
+  --heading-background: #5f503c;
+  --color-white: #fdfdfd;
+  --hover-color: #5f503c;
+
+  --trans-color: rgba(196 207 207 / 0.7);
+  --trans-text-color: #04040c;
+
+  --footer-background: #3e3e3e;
+
+  --primary-color: #a5b452;
+  --secondary-color: #9888a5;
+  --accent1-color: #5f503c;
+  --accent2-color: #afaf60;
+
+  --nav-link-color: #fff;
+  --nav-background-color: #5f503c;
+  --nav-hover-link-color: #5f503c;
+  --nav-hover-background-color: #fff;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +44,47 @@ body {
 }
 
 header {
-    margin: 0 auto;
-    width: 650px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    max-width: 2000px;
+    background-color: aquamarine;
+}
+
+nav {
+    text-align: left;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    background-color: greenyellow;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -72,7 +143,7 @@ button {
     background-color: navy;
     color: #fff;
     border: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: .75rem;
     font-size: 1.2rem;
 }

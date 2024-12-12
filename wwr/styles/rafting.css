@@ -166,17 +166,72 @@ p {
 
 .box {
     background-color: #afaf60;
-    width: 100%;
+    width: 600px;
+    
+    text-align:left;
 }
+
+.newsletter {
+    background: #afaf60;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 930px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.newsletter hr {
+    width: 470px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter input {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 75%;
+    height: 35px;
+    border: 0px;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 36px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.newsletter label {
+    color: black;
+    font-size: 20px;
+}
+
+.newsletter button {
+    border: 1px solid rgba(255, 255, 255, 0.5a);
+    border-radius: 3px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    padding: 0px 28px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.newsletter button:hover {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+/*.form {
+    display: block;
+}*/
 
 .sociallinks {
     margin-left: 1700px;
 }
 
-/*.button {
-
-}
-
 footer p {
-    footer-background: #3e3e3e;
-}*/
+    color: #3e3e3e;
+}
